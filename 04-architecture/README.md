@@ -6,7 +6,7 @@ We plan to build the SafeGuardHER mobile application using the **MVC (Model-View
 
 Below is the architecture diagram for SafeGuardHER:
 
-![](architecture.png)
+![](architechureDiagram.png)
 
 > We recommend building architecture diagrams using [Draw.io](https://app.diagrams.net/). It also has a desktop application for offline use.
 
@@ -23,9 +23,9 @@ The list of technologies we use to build the SafeGuardHER application is as foll
 | Java               | Backend Programming Language              | 11.0.9  |
 | Kotlin             | Android Programming Language              | Latest  |
 | Android Studio     | Android Development Environment           | Latest  |
-| PostgreSQL         | Database                                   | 13.1    |
+| Firebase         | Database                                   | 13.1    |
 | Spring Boot        | Backend Framework                          | 2.4.1   |
-| React Native       | Frontend Framework for Mobile Development | Latest  |
+| Kotlin    | Frontend Framework for Mobile Development | Latest  |
 | Firebase           | Authentication and Realtime Database       | Latest  |
 | Docker             | Containerization                            | Latest  |
 
