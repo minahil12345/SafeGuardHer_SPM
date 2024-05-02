@@ -10,5 +10,5 @@ Onboarding resources:
 | [Tools](./02-tools.md) | Tools you will need to install on your machine |
 | [Development Machine Setup](./03-development-machine-setup.md) | Development machine setup for this project |
 | [Accounts](./04-accounts.md) | Accounts you will need access to |
-
+| [Executive Summary](./executive Summary.md) | Helps to know the Business Summary |
 
