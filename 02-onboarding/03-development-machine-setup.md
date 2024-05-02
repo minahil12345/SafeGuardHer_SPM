@@ -10,7 +10,7 @@ Ensure you have Git installed and configured with your user information. This is
 git config --global user.name "SafeGuardHer"
 git config --global user.email "i200813@nu.edu.pk"
 For a better command-line experience, Windows users should use Git Bash.
-
+```
 If you need to learn more about Git, check out this Git tutorial.
 
 Connecting to GitHub Using SSH
