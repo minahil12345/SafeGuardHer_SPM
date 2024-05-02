@@ -1,4 +1,4 @@
-# [Project] Team Structure
+# SafeGuardHer Team Structure
 
 Please specify following team details:
 
