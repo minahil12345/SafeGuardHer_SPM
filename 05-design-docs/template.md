@@ -1,7 +1,4 @@
-# [Title] Design Document
-
-Author: [Your Name]
-
+# SafeGuardHer Design Document
 ## Introduction
 
 ### Background
@@ -67,12 +64,15 @@ The problem at hand is clear: women need a proactive and accessible safety solut
     7. Advocacy and Safety Organizations: Organizations and advocacy groups focused on women's safety and security, as they may recommend or partner with SafeGuardHER to promote safety measures.
     
 ## Proposed Design
+SafeGuardHER is a cross-platform mobile application, compatible with both Android and iOS devices, designed with a primary focus on enhancing women's safety and security during public transportation, ride-sharing services, and various travel scenarios. 
+To enable advanced audio analysis of the user's environment for threat detection, users will need to grant microphone access to the app via their device's permission settings and ensure the phone is placed in an open space for optimal analysis.
+To enable the voice-activated feature, users will be required to input the key command, "SafeGuard help me," in various tones and accents. This step allows the speech recognition model to adapt to the user's voice, ensuring the feature is triggered only when the user speaks the keyword and not by others.
+Setting up emergency contacts is a critical aspect of the app's functionality. For user convenience, there will be an option to either search for and select contacts from the user's existing phone contacts or manually enter contact information into the app.
+To ensure user engagement and app activation, the app will send timed alert notifications as reminders to encourage users to enable the app before heading out or whenever they anticipate the need for its features. Once activated, the app will remain functional in the background, even when not actively in use on the user's device, ensuring continuous monitoring and safety support.  
 
-Start with a brief, high-level description of the solution. The following sections will go into more detail.
 
 ### System Architecture
-
-If the design consists of a collaboration between multiple large-scale components, list those components here — or better, include a diagram.
+Present on the OnBoard page
 
 ### Data Model
 # 3.2.1 Hate Speech Model in Roman Urdu
@@ -99,21 +99,9 @@ The core building blocks of the model is residual blocks. These blocks are desig
 ## Training
 The model is trained using the Adam optimizer and sparse categorical crossentropy loss. Additionally, early stopping and model checkpointing callbacks are implemented to prevent overfitting and save the best model during training.
 
-## Conclusion
-The resulting model architecture effectively captures temporal and frequency-domain features from audio data, making it suitable for speaker identification tasks. The use of residual blocks enhances the model's ability to learn complex patterns, and the incorporation of FFT provides a robust representation of audio signals for improved classification performance.
+### Issues
+Check out the [Google Document](https://docs.google.com/document/d/1Y2YtVAONh_GrqTm2o3M1Cancu20Mz6OUaIecOFyrm2Q/edit) for more information.
 
-
-### Interface/API Definitions
-
-Describe how the various components talk to each other. For example, if there are REST endpoints, describe the endpoint URL and the format of the data and parameters used.
-
-### Business Logic
-
-If the design requires any non-trivial algorithms or logic, describe them.
-
-### Migration Strategy
-
-If the design incurs non-backwards-compatible changes to an existing system, describe the process whereby entities that depend on the system are going to migrate to the new design.
 
 ## Impact
 
