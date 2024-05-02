@@ -18,6 +18,7 @@ Set up SSH for your GitHub account for secure and easy access. Follow this guide
 
 Clone the Application Repository
 Use the following command to clone the SafeGuardHER project repository:
+```shell
 git clone [Repository_Git_SSH_URL]
 
 
@@ -33,10 +34,8 @@ Ensure Docker is installed on your machine. If not, download and install Docker 
 Build the Docker image for the SafeGuardHER application:
 docker build -t safeguardher:latest .
 Run the Docker container with the following command:
-
+```shell
 docker run -p 8080:8080 safeguardher:latest
-
-
 If you have any issues with Docker, consult the Docker documentation or reach out to the project lead for assistance.
 
 **This Markdown file contains the necessary setup instructions for Git, GitHub, building the SafeGuardHER application, and running it in Docker. It includes details about required tools, setting up SSH for GitHub, and additional resources for troubleshooting.**
