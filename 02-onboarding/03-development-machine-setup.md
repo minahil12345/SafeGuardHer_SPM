@@ -22,8 +22,9 @@ Use the following command to clone the SafeGuardHER project repository:
 git clone [Repository_Git_SSH_URL]
 
 
-Building the Application
+## Building the Application
 To build the SafeGuardHER application, ensure you're in the project's root directory and then run the following command:
+```shell
 ./gradlew build
 If you encounter any issues with building, ensure that you have the correct versions of all required tools and dependencies installed.
 
