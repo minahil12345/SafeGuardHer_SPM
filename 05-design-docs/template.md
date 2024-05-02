@@ -99,18 +99,9 @@ The core building blocks of the model is residual blocks. These blocks are desig
 ## Training
 The model is trained using the Adam optimizer and sparse categorical crossentropy loss. Additionally, early stopping and model checkpointing callbacks are implemented to prevent overfitting and save the best model during training.
 
-### Issues
+### Risks
 Check out the [Google Document](https://docs.google.com/document/d/1Y2YtVAONh_GrqTm2o3M1Cancu20Mz6OUaIecOFyrm2Q/edit) for more information.
 
 
-## Impact
-
-Describe the potential impacts of the design on overall performance, security, and other aspects of the system.
-
-## Risks
-
-If there are any risks or unknowns, list them here. Also if there is additional research to be done, mention that as well.
-
-## Alternatives
-
-If there are other potential solutions which were considered and rejected, list them here, as well as the reason why they were not chosen.
+## Issues
+To view additional project documentation, visit the [Google Docs document](https://docs.google.com/document/d/1MzgGkfLE-X0YPtWw_c3WecNsVp3VfxeMWIUjFpea45s/edit).
